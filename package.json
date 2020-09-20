@@ -1,5 +1,5 @@
 {
-  "name": "solid-test",
+  "name": "solid_example_vue",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,6 +9,10 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "element-ui": "^2.13.2",
+    "rdf-namespaces": "^1.9.2",
+    "solid-auth-client": "^2.5.1",
+    "tripledoc": "^4.3.4",
     "vue": "^2.6.11"
   },
   "devDependencies": {
