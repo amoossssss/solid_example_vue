@@ -78,7 +78,7 @@ export default {
             // Input value of new note
             newNote: "",
             // Notes from your pod (only text)
-            notes: null
+            notes: []
         }
     },
     methods: {
@@ -119,7 +119,7 @@ export default {
             /* 2. If it doesn't exist, create it. */
             if (notesListEntry === null) {
                 // We will define this function later:
-                noteslist = this.initialiseNotesList(this.profile, publicTypeIndex);
+                noteslist = await this.initialiseNotesList(this.profile, publicTypeIndex);
                 this.notePad = noteslist;
                 return noteslist;
             }
