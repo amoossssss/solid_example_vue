@@ -45,8 +45,8 @@ npm run lint
 ## 📝 Why I made this example?
 
 This is my first time learning and writing a [Solid](https://solidproject.org/) application. <br>
-I feel frustrated when looking at the tutorial on the Solid website. <br>
-It is detailed and get to the point, however, most CodeSandBox examples cannot run on my machine. <br>
+I feel frustrated when following the tutorial provided by Solid <br>
+It is detailed and gets to the point, however most CodeSandBox examples cannot run on my machine. <br>
 It also requires React and Redux background knowledge to understand the code their team provided. <br>
 
 This example is written in [Vue.js](https://vuejs.org/), and I kept it as simple as possible. <br>
